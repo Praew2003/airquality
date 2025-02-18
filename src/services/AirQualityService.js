@@ -19,4 +19,5 @@ export async function getAirQuality(city, state, country) {
         console.error("Error fetching air quality data:", error.response?.data || error.message);
         return null;
     }
+
 }
