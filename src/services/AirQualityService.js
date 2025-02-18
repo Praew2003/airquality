@@ -1,7 +1,8 @@
 import axios from "axios";
 
 const API_KEY = "8bf06638-40e7-4aaf-922b-10a691d55b28";
-const BASE_URL = "https://api.airvisual.com/v2/city";
+const BASE_URL ="https://api.airvisual.com/v2/nearest_city";
+
 
 export async function getAirQuality(city, state, country) {
     try {
